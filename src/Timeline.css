@@ -1,0 +1,89 @@
+.container {
+    display: grid;
+    grid-template-columns: 25% 20% 5% 5% 20% 25%;
+    grid-template-rows: 28px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.filler {
+    background-color: blue;
+    color: white;
+}
+
+.item {
+    background-color: red;
+}
+
+.straightLineLeft {
+    border-right: solid 1px white;
+}
+
+.straightLineRight {
+    border-left: solid 1px white;
+}
+
+.lineLeft {
+    border-bottom: solid 2px white;
+    border-right: solid 1px white;
+}
+
+.lineRight {
+    border-bottom: solid 2px white;
+    border-left: solid 1px white;
+}
+
+.item-a {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+.item-b {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: span 2;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+  .item-c {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 8;
+    grid-row-end: span 2;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+.item-d {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: span 2;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+  }
+
+.timelineHeader {
+    grid-column-start: 2;
+    grid-column-end: span 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: dotted 4px white;
+    background-color: black;
+
+  }
