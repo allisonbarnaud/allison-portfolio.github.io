@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import './Timeline.css';
 
+
 export default class Timeline extends Component {
 
 
@@ -10,9 +11,11 @@ export default class Timeline extends Component {
         return (
             <div className="container">
                 {/* pre-line */}
+                
                 <div className="filler"></div>
                 <div className="timelineHeader">START HERE</div>
                 <div className="filler">Jakarta 1994</div>
+                
                 {/* first line */}
                 <div className="filler">
                 </div>
