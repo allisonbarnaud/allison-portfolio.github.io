@@ -1,17 +1,17 @@
 .container {
     display: grid;
-    grid-template-columns: 25% 20% 5% 5% 20% 25%;
+    grid-template-columns: 10% 35% 5% 5% 35% 10%;
     grid-template-rows: 28px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
 }
 
-.filler {
+/* .filler {
     background-color: blue;
     color: white;
 }
 
 .item {
     background-color: red;
-}
+} */
 
 .straightLineLeft {
     border-right: solid 1px white;
@@ -36,10 +36,6 @@
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: span 2;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 8px;
-    font-size: 12px;
   }
 
 .item-b {
