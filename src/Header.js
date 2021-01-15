@@ -14,7 +14,7 @@ export default class Header extends Component {
             <div style={{color: "white", margin: "10px auto 20px auto"}}>
                 
                     <Navbar bg="dark" variant="dark" fixed="top">
-                        <Navbar.Brand style={{marginLeft: "26.5%", color:"#ffce00", fontFamily: "'Oswald', sans-serif", fontSize: "25px",padding: "0"}} href="#home">ALLISON B ARNAUD</Navbar.Brand>
+                        <Navbar.Brand style={{marginLeft: "26.5%", color:"#ffce00", fontFamily: "'Oswald', sans-serif", fontSize: "30px",padding: "0"}} href="#home">ALLISON B ARNAUD</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav style={{marginLeft: "9%", fontFamily: "'Oswald', sans-serif"}} className="mr-auto">

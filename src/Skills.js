@@ -10,15 +10,15 @@ export default class Skills extends Component {
         return (
             <div>
                 <h1 className="header">SKILLS</h1>
-                <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-                    <Tab eventKey="Front-End" title="Front-End">
-                        <div>bla bla bla</div>
+                <Tabs style={{backgroundColor:"#152238", width: "46%", marginLeft: "27%", color: "white !important"}} defaultActiveKey="Front-End">
+                    <Tab style={{backgroundColor:"#152238", width: "46%", marginLeft: "27%", color: "white"}} eventKey="Front-End" title="Front-End">
+                        <div style={{color:"white"}}>REACT <br></br><br></br><br></br><br></br> bootstrap</div>
                     </Tab>
-                    <Tab eventKey="Back-End" title="Back-End">
-                        <div>bla bla bla</div>
+                    <Tab style={{backgroundColor:"#152238", width: "46%", marginLeft: "27%", color: "white"}} eventKey="Back-End" title="Back-End">
+                        <div style={{color:"white"}}>RUBYYY</div>
                     </Tab>
-                    <Tab eventKey="Others" title="Others">
-                        <div>bla bla bla</div>
+                    <Tab style={{backgroundColor:"#152238", width: "46%", marginLeft: "27%", color: "white"}} eventKey="Development Tools" title="Development Tools">
+                        <div style={{color:"white"}}>JIRA AND WHATNOT</div>
                     </Tab>
                 </Tabs>
             </div>

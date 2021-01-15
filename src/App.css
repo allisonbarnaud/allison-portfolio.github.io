@@ -17,3 +17,5 @@ body {
   font-family: 'Oswald', sans-serif;
   margin-left: 27%;
 }
+
+.navbar { padding: 2px !important }
