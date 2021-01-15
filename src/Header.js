@@ -14,7 +14,7 @@ export default class Header extends Component {
             <div style={{color: "white", margin: "10px auto 20px auto"}}>
                 
                     <Navbar bg="dark" variant="dark" fixed="top">
-                        <Navbar.Brand style={{marginLeft: "25%", color:"#ffce00", fontFamily: "'Oswald', sans-serif", fontSize: "25px",padding: "0"}} href="#home">ALLISON B ARNAUD</Navbar.Brand>
+                        <Navbar.Brand style={{marginLeft: "26.5%", color:"#ffce00", fontFamily: "'Oswald', sans-serif", fontSize: "25px",padding: "0"}} href="#home">ALLISON B ARNAUD</Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav style={{marginLeft: "9%", fontFamily: "'Oswald', sans-serif"}} className="mr-auto">
@@ -45,7 +45,7 @@ export default class Header extends Component {
                     </Navbar>
                 
                 
-                <div style={{fontSize: "18px", width: "40%", margin: "80px auto 0 auto", fontFamily: "'oxygen', sans-serif"}}>Welcome to my webpage! <br></br><br></br> I am an enthusiastic software developer, former electrical engineer and Future Technologies enthusiast. I believe in using technology to create a brighter, more sustainable future for the planet. <br></br><br></br> -Allison </div> 
+                <div style={{fontSize: "18px", width: "47%", margin: "80px auto 0 27%", fontFamily: "'oxygen', sans-serif"}}>Welcome to my webpage! <br></br><br></br> I am an enthusiastic software developer, former electrical engineer and Future Technologies enthusiast. I believe in using technology to create a brighter, more sustainable future for the planet. <br></br><br></br> -Allison </div> 
             </div>
         )
     }

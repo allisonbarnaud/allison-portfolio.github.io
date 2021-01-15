@@ -11,3 +11,9 @@ html body {
 body {
   font-family: 'Oxygen', sans-serif;
 }
+
+.header {
+  color: #ffce00;
+  font-family: 'Oswald', sans-serif;
+  margin-left: 27%;
+}
