@@ -1,0 +1,11 @@
+.container2 {
+    display: grid;
+    grid-template-columns: 33% 33%;
+    grid-template-rows: 350px 350px 350px;
+    margin: 0 auto 0 27%
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+}
