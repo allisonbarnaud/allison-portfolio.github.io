@@ -10,7 +10,7 @@ export default class Skills extends Component {
         return (
             <div>
                 <h1 className="header">SKILLS</h1>
-                <Tabs style={{backgroundColor:"#152238", width: "46%", marginLeft: "27%", color: "white !important"}} defaultActiveKey="Front-End">
+                <Tabs style={{width: "46%", marginLeft: "27%"}} defaultActiveKey="Front-End">
                     <Tab style={{backgroundColor:"#152238", width: "46%", marginLeft: "27%", color: "white"}} eventKey="Front-End" title="Front-End">
                         <div style={{color:"white"}}>REACT <br></br><br></br><br></br><br></br> bootstrap</div>
                     </Tab>

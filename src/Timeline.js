@@ -79,7 +79,7 @@ export default class Timeline extends Component {
                         <Card>
                             <Card.Header style={{ height:"50px", padding:"0"}}>
                                 <Accordion.Toggle style={{color:"black", width:"100%", height:"100%"}} as={Button} variant="link" eventKey="1">
-                                    Childhood in Jakarta, Indonesia.
+                                    Growing up loving technology and games.
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
@@ -122,7 +122,7 @@ export default class Timeline extends Component {
                         <Card>
                             <Card.Header style={{ height:"50px", padding:"0"}}>
                                 <Accordion.Toggle style={{color:"black", width:"100%", height:"100%"}} as={Button} variant="link" eventKey="1">
-                                    Childhood in Jakarta, Indonesia.
+                                    Studying Engineering at University
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
@@ -161,7 +161,7 @@ export default class Timeline extends Component {
                         <Card>
                             <Card.Header style={{ height:"50px", padding:"0"}}>
                                 <Accordion.Toggle style={{color:"black", width:"100%", height:"100%"}} as={Button} variant="link" eventKey="1">
-                                    Childhood in Jakarta, Indonesia.
+                                    Changing majors half-way through
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">

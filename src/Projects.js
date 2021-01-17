@@ -4,6 +4,8 @@ import './Projects.css'
 
 import { Card, Button } from 'react-bootstrap'
 
+import gnews from './g-news-screenshot.png'
+
 export default class Projects extends Component {
 
     render() {
@@ -12,67 +14,71 @@ export default class Projects extends Component {
             <div>
                 <h1 className="header" style={{marginTop:"200px"}}>PROJECTS</h1>
                 <div className="container2">
-                    <Card style={{width:"420px", height: "300px"}}>
-                        <Card.Header>Budget-mate</Card.Header>
+                    <Card bg="light" style={{width:"420px", height: "300px"}}>
+                        <Card.Header><strong>Budget-mate</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Source code</Button>
-                            <Button variant="primary">Prototype</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
-                        <Card.Header>Tic-Tac-toe</Card.Header>
-                        <Card.Body>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Source code</Button>
-                            <Button variant="primary">Prototype</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
-                        <Card.Header>Gamer News</Card.Header>
-                        <Card.Body>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Source code</Button>
-                            <Button variant="primary">Prototype</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
-                        <Card.Header>Tech Tracker</Card.Header>
-                        <Card.Body>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Source code</Button>
-                            <Button variant="primary">Prototype</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
-                        <Card.Header>Discord Bot</Card.Header>
-                        <Card.Body>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
-                            </Card.Text>
-                            <Button variant="primary">Source code</Button>
-                            <Button variant="primary">Prototype</Button>
-                        </Card.Body>
-                    </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
-                        <Card.Header></Card.Header>
-                        <Card.Body>
-                            <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
+                            A <strong>Full-stack</strong> financial tracker/budgetting application written in <strong>Javascript, HTML and CSS</strong>. Made with <strong>ReactJS, ExpressJS.</strong>
                             </Card.Text>
                             <div className="container3">
-                                <Button variant="primary" style={{margin: ""}}>Source code</Button>
-                                <Button variant="primary">Prototype</Button>
+                                <Button href="" variant="warning">Live website</Button>
+                                <Button href="https://github.com/allisonbarnaud/budget-mate" variant="warning">Source code</Button>
                             </div>
-                            
+                        </Card.Body>
+                    </Card>
+                    <Card style={{width:"420px", height: "300px"}}>
+                        <Card.Header><strong>Tic-Tac-toe</strong></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            A <strong>Front-end</strong> application written in <strong>Javascript, HTML and CSS</strong>. A web-based recreation of the classic 2-player game.
+                            </Card.Text>
+                            <div className="container3">
+                                <Button href="https://allisonbarnaud.github.io/Tic-Tac-Toe-Game/" variant="warning">Live website</Button>
+                                <Button href="https://github.com/allisonbarnaud/Tic-Tac-Toe-Game/" variant="warning">Source code</Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{width:"420px", height: "300px"}}>
+                        <Card.Header><strong>Gamer News</strong></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            A <strong>Full-stack</strong> CRUD application written in <strong>Ruby</strong>. This application uses the News Api to create a gaming news platform. Made with <strong>Sinatra, PostgreSQL, BCrypt.</strong> 
+                            </Card.Text>
+                            <div className="container3">
+                                <Button href="https://g-news.herokuapp.com/" variant="warning">Live website</Button>
+                                <Button href="https://github.com/allisonbarnaud/gamer-news" variant="warning">Source code</Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{width:"420px", height: "300px"}}>
+                        <Card.Header><strong>Tech Tracker</strong></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            A <strong>Full-stack</strong> price compare application written in <strong>Javascript, HTML and CSS</strong>. A web scraper was built to parse data from websites to obtain and compare prices. Made with <strong>Puppeteer, ExpressJS, NodeJS, BodyParser, PostgreSQL.</strong>
+                            </Card.Text>
+                            <div className="container3">
+                                <Button href="" variant="warning">Live website</Button>
+                                <Button href="https://github.com/allisonbarnaud/web_scraper_price_compare" variant="warning">Source code</Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{width:"420px", height: "300px"}}>
+                        <Card.Header><strong>All-in-one Discord Bot</strong></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            A <strong>Back-end</strong> application written in <strong>Javascript</strong>. An automated helper for Discord servers, that can answer basic questions and play music on request within voice channels. Made with <strong>NodeJS, UnderscoreJS, Discord API</strong>.
+                            </Card.Text>
+                            <div className="container3">
+                                <Button href="https://github.com/allisonbarnaud/all_in_one_discord_bot" variant="warning">Source code</Button>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                    <Card style={{width:"420px", height: "300px"}}>
+                        <Card.Header><strong>Godot Game #1</strong></Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                            My first project with the Godot game engine. Work In Progress..
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
