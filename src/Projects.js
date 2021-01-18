@@ -11,8 +11,8 @@ export default class Projects extends Component {
     render() {
 
         return (
-            <div>
-                <h1 className="header" style={{marginTop:"200px"}}>PROJECTS</h1>
+            <div id="projects" style={{paddingTop:"50px"}}>
+                <h1 className="header">PROJECTS</h1>
                 <div className="container2">
                     <Card bg="light" style={{width:"420px", height: "300px"}}>
                         <Card.Header><strong>Budget-mate</strong></Card.Header>
@@ -21,7 +21,7 @@ export default class Projects extends Component {
                             A <strong>Full-stack</strong> financial tracker/budgetting application written in <strong>Javascript, HTML and CSS</strong>. Made with <strong>ReactJS, ExpressJS.</strong>
                             </Card.Text>
                             <div className="container3">
-                                <Button href="" variant="warning">Live website</Button>
+                                <Button href="" variant="warning" disabled>Live website</Button>
                                 <Button href="https://github.com/allisonbarnaud/budget-mate" variant="warning">Source code</Button>
                             </div>
                         </Card.Body>
@@ -57,7 +57,7 @@ export default class Projects extends Component {
                             A <strong>Full-stack</strong> price compare application written in <strong>Javascript, HTML and CSS</strong>. A web scraper was built to parse data from websites to obtain and compare prices. Made with <strong>Puppeteer, ExpressJS, NodeJS, BodyParser, PostgreSQL.</strong>
                             </Card.Text>
                             <div className="container3">
-                                <Button href="" variant="warning">Live website</Button>
+                                <Button href="" variant="warning" disabled>Live website</Button>
                                 <Button href="https://github.com/allisonbarnaud/web_scraper_price_compare" variant="warning">Source code</Button>
                             </div>
                         </Card.Body>

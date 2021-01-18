@@ -10,24 +10,24 @@ export default class Timeline extends Component {
     render() {
 
         return (
-            <div>
-                <h1 className="header">TIMELINE</h1>
+            <div id='example' style={{paddingTop:"50px"}}>
+                <h1  className="header">TIMELINE</h1>
                 <div className="container">
                     
                     {/* pre-line */}
                     
                     <div className="filler"></div>
                     <div className="timelineHeader">START</div>
-                    <div className="locationDate">Jakarta, 1994</div>
+                    <div className="filler"></div>
                     
                     {/* first line */}
                     <div className="filler">
                     </div>
                     <div className="item">
                     </div>
-                    <div className="straightLineLeft">
+                    <div style={{borderRight:"solid 3px blue"}}>
                     </div>
-                    <div className="straightLineRight">
+                    <div style={{borderLeft:"solid 3px blue"}}>
                     </div>
                     <div className="item">
                     </div>
@@ -48,9 +48,9 @@ export default class Timeline extends Component {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
-                    <div className="lineLeft">
+                    <div style={{borderBottom:"solid 6px blue", borderRight:"solid 3px blue"}}>
                     </div>
-                    <div className="straightLineRight">
+                    <div style={{borderLeft:"solid 3px blue"}}>
                     </div>
                     <div className="item">
                     </div>
@@ -59,9 +59,9 @@ export default class Timeline extends Component {
                     {/* third line */}
                     <div className="filler">
                     </div>
-                    <div className="straightLineLeft">
+                    <div style={{borderRight:"solid 3px blue"}}>
                     </div>
-                    <div className="straightLineRight">
+                    <div style={{borderLeft:"solid 3px blue"}}>
                     </div>
                     <div className="item">
                     </div>
@@ -70,10 +70,23 @@ export default class Timeline extends Component {
                     {/* fourth line */}
                     <div className="filler">
                     </div>
-                    <div className="item"></div>
-                    <div className="straightLineLeft">
+                    <div className="item">
                     </div>
-                    <div className="lineRight">
+                    <div style={{borderRight:"solid 3px red"}}>
+                    </div>
+                    <div style={{borderLeft:"solid 3px red"}}>
+                    </div>
+                    <div className="item">
+                    </div>
+                    <div className="filler">
+                    </div>
+                    {/* fifth line */}
+                    <div className="filler">
+                    </div>
+                    <div className="item"></div>
+                    <div style={{borderRight:"solid 3px red"}}>
+                    </div>
+                    <div style={{borderLeft:"solid 3px red", borderBottom:"solid 6px red"}}>
                     </div>
                     <Accordion  className="item-b">
                         <Card>
@@ -89,24 +102,24 @@ export default class Timeline extends Component {
                     </Accordion>
                     <div className="filler">
                     </div>
-                    {/* fifth line */}
-                    <div className="filler">
-                    </div>
-                    <div className="item">
-                    </div>
-                    <div className="straightLineLeft">
-                    </div>
-                    <div className="straightLineRight">
-                    </div>
-                    <div className="filler">
-                    </div>
-
-
                     {/* sixth line */}
                     <div className="filler">
                     </div>
                     <div className="item">
                     </div>
+                    <div style={{borderRight:"solid 3px red"}}>
+                    </div>
+                    <div style={{borderLeft:"solid 3px red"}}>
+                    </div>
+                    <div className="filler">
+                    </div>
+
+
+                    {/* seventh line */}
+                    <div className="filler">
+                    </div>
+                    <div className="item">
+                    </div>
                     <div className="straightLineLeft">
                     </div>
                     <div className="straightLineRight">
@@ -115,7 +128,7 @@ export default class Timeline extends Component {
                     </div>
                     <div className="filler">
                     </div>
-                    {/* seventh line */}
+                    {/* eighth line */}
                     <div className="filler">
                     </div>
                     <Accordion  className="item-c">
@@ -138,7 +151,7 @@ export default class Timeline extends Component {
                     </div>
                     <div className="filler">
                     </div>
-                    {/* eighth line */}
+                    {/* nineth line */}
                     <div className="filler">
                     </div>
                     <div className="straightLineLeft">
@@ -149,7 +162,7 @@ export default class Timeline extends Component {
                     </div>
                     <div className="filler">
                     </div>
-                    {/* nineth line */}
+                    {/* tenth line */}
                     <div className="filler">
                     </div>
                     <div className="item"></div>
@@ -161,7 +174,7 @@ export default class Timeline extends Component {
                         <Card>
                             <Card.Header style={{ height:"50px", padding:"0"}}>
                                 <Accordion.Toggle style={{color:"black", width:"100%", height:"100%"}} as={Button} variant="link" eventKey="1">
-                                    Changing majors half-way through
+                                    Started working as an engineer.
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
@@ -171,7 +184,7 @@ export default class Timeline extends Component {
                     </Accordion>
                     <div className="filler">
                     </div>
-                    {/* tenth line */}
+                    {/* eleventh line */}
                     <div className="filler">
                     </div>
                     <div className="item">
