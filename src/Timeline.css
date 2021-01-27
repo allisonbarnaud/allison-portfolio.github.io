@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 10% 35% 5% 5% 35% 10%;
-    grid-template-rows: 28px 50px 25px 75px 50px 25px 25px 50px 25px 25px 50px;
+    grid-template-rows: 28px 50px 25px 75px 50px 25px 75px 50px 25px 75px 50px;
 }
 
 .filler {

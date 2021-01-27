@@ -120,9 +120,9 @@ export default class Timeline extends Component {
                     </div>
                     <div className="item">
                     </div>
-                    <div className="straightLineLeft">
+                    <div style={{borderRight:"solid 3px #CCEECC"}}>
                     </div>
-                    <div className="straightLineRight">
+                    <div style={{borderLeft:"solid 3px #CCEECC"}}>
                     </div>
                     <div className="item">
                     </div>
@@ -143,9 +143,9 @@ export default class Timeline extends Component {
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
-                    <div className="lineLeft">
+                    <div style={{borderBottom:"solid 6px #CCEECC", borderRight:"solid 3px #CCEECC"}}>
                     </div>
-                    <div className="straightLineRight">
+                    <div style={{borderLeft:"solid 3px #CCEECC"}}>
                     </div>
                     <div className="item">
                     </div>
@@ -154,9 +154,9 @@ export default class Timeline extends Component {
                     {/* nineth line */}
                     <div className="filler">
                     </div>
-                    <div className="straightLineLeft">
+                    <div style={{borderRight:"solid 3px #CCEECC"}}>
                     </div>
-                    <div className="straightLineRight">
+                    <div style={{borderLeft:"solid 3px #CCEECC"}}>
                     </div>
                     <div className="item">
                     </div>
