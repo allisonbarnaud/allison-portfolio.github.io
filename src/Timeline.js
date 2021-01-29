@@ -10,14 +10,27 @@ export default class Timeline extends Component {
     render() {
 
         return (
-            <div id='example' style={{paddingTop:"50px"}}>
+            <div id='example' style={{paddingTop:"50px", paddingBottom:"100px"}}>
                 <h1  className="header">TIMELINE</h1>
                 <div className="container">
                     
                     {/* pre-line */}
                     
                     <div className="filler"></div>
-                    <div className="timelineHeader">START</div>
+                    <div className="item"></div>
+                    <Accordion  className="timelineHeader">
+                        <Card>
+                            <Card.Header style={{ height:"50px", padding:"0", backgroundColor:"#C5EBFE"}}>
+                                <Accordion.Toggle style={{color:"black", width:"100%", height:"100%"}} as={Button} variant="link" eventKey="1">
+                                    START
+                                </Accordion.Toggle>
+                            </Card.Header>
+                            <Accordion.Collapse eventKey="1">
+                                <Card.Body style={{backgroundColor:"#C5EBFE"}}>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </Card.Body>
+                            </Accordion.Collapse>
+                        </Card>
+                    </Accordion>
+                    <div className="item"></div>
                     <div className="filler"></div>
                     
                     {/* first line */}
@@ -40,7 +53,7 @@ export default class Timeline extends Component {
                         <Card>
                             <Card.Header style={{ height:"50px", padding:"0", backgroundColor:"#C5EBFE"}}>
                                 <Accordion.Toggle style={{color:"black", width:"100%", height:"100%"}} as={Button} variant="link" eventKey="1">
-                                    Early life
+                                    Childhood
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">

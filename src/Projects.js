@@ -4,8 +4,6 @@ import './Projects.css'
 
 import { Card, Button } from 'react-bootstrap'
 
-import gnews from './g-news-screenshot.png'
-
 export default class Projects extends Component {
 
     render() {
