@@ -1,0 +1,12 @@
+.skillsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 46%;
+    margin: 0 auto;
+    column-gap: 10px;
+}
+
+.skills {
+    border-radius: 5px;
+    padding: 5px;
+}

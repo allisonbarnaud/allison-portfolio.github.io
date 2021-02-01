@@ -8,9 +8,12 @@ export default class Contacts extends Component {
         return (
             <div id="contact">
                 <h1 className="header">CONTACTS</h1>
-                <div style={{width: "800px", height:"80px", margin: "0 auto", backgroundColor: "white"}}>
-                    <h3>E-mail: arnaudallisonb@gmail.com</h3>
-                    <h3>Telephone: +61401668427</h3>
+                <div style={{width: "46%", height:"80px", margin: "0 auto", backgroundColor: "white", textAlign:"center", borderRadius:"5px", paddingTop:"8px"}}>
+                    <h4>arnaudallisonb@gmail.com</h4>
+                    <h4>+61401668427</h4>
+                    <br/><br/><br/><br/><br/>
+                    <div style={{color:"grey"}}>Made by Allison with React and a lot of CSS</div>
+                    <br/>
                 </div>
                 
             </div>

@@ -43,20 +43,20 @@
 
   .item-e {
     grid-column-start: 2;
-    grid-column-end: span 2;
+    grid-column-end: span 4;
     grid-row-start: 15;
     grid-row-end: span 2;
     width: 400px;
-    margin-left: 250px;
+    margin: 0 auto;
   }
 
 .timelineHeader {
     grid-column-start: 2;
-    grid-column-end: span 2;
+    grid-column-end: span 4;
     grid-row-start: 1;
     grid-row-end: 1;
     width: 400px;
-    margin-left: 250px;
+    margin: 0 auto;
     text-align: center;
     /* border-bottom: dashed 2px white; */
     background-color: black;

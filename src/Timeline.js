@@ -17,7 +17,7 @@ export default class Timeline extends Component {
                     {/* pre-line */}
                     
                     <div className="filler"></div>
-                    <div className="item"></div>
+                    
                     <Accordion  className="timelineHeader">
                         <Card>
                             <Card.Header style={{ height:"50px", padding:"0", backgroundColor:"#C5EBFE"}}>
@@ -26,11 +26,10 @@ export default class Timeline extends Component {
                                 </Accordion.Toggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="1">
-                                <Card.Body style={{backgroundColor:"#C5EBFE"}}>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </Card.Body>
+                                <Card.Body style={{backgroundColor:"#C5EBFE", textAlign:"justify"}}>I grew up in Jakarta, Indonesia and went to a French School. I had a multicultural upbringing, which has given me a broad perspective in life, and made me fluent in 4 languages.</Card.Body>
                             </Accordion.Collapse>
                         </Card>
                     </Accordion>
-                    <div className="item"></div>
                     <div className="filler"></div>
                     
                     {/* first line */}
@@ -220,7 +219,7 @@ export default class Timeline extends Component {
                     </div>
                     <div className="filler">
                     </div>
-                    {/* tirteenth line */}
+                    {/* thirteenth line */}
                     <div className="filler">
                     </div>
                     <div className="item">

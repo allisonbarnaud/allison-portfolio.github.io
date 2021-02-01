@@ -9,10 +9,10 @@ export default class Projects extends Component {
     render() {
 
         return (
-            <div id="projects" style={{paddingTop:"50px"}}>
+            <div id="projects" style={{paddingTop:"50px", marginBottom:"80px"}}>
                 <h1 className="header">PROJECTS</h1>
                 <div className="container2">
-                    <Card bg="light" style={{width:"420px", height: "300px"}}>
+                    <Card bg="light" style={{width:"91%", height: "88%"}}>
                         <Card.Header><strong>Budget-mate</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -24,7 +24,7 @@ export default class Projects extends Component {
                             </div>
                         </Card.Body>
                     </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
+                    <Card style={{width:"91%", height: "88%"}}>
                         <Card.Header><strong>Tic-Tac-toe</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -36,7 +36,7 @@ export default class Projects extends Component {
                             </div>
                         </Card.Body>
                     </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
+                    <Card style={{width:"91%", height: "88%"}}>
                         <Card.Header><strong>Gamer News</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -48,7 +48,7 @@ export default class Projects extends Component {
                             </div>
                         </Card.Body>
                     </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
+                    <Card style={{width:"91%", height: "88%"}}>
                         <Card.Header><strong>Tech Tracker</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -60,7 +60,7 @@ export default class Projects extends Component {
                             </div>
                         </Card.Body>
                     </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
+                    <Card style={{width:"91%", height: "88%"}}>
                         <Card.Header><strong>All-in-one Discord Bot</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>
@@ -71,7 +71,7 @@ export default class Projects extends Component {
                             </div>
                         </Card.Body>
                     </Card>
-                    <Card style={{width:"420px", height: "300px"}}>
+                    <Card style={{width:"91%", height: "88%"}}>
                         <Card.Header><strong>Godot Game #1</strong></Card.Header>
                         <Card.Body>
                             <Card.Text>

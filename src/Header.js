@@ -57,7 +57,7 @@ export default class Header extends Component {
                 {/* anchor point for home button scrolling */}
                 <div id="home">easter egg</div> 
 
-                <div style={{fontSize: "18px", width: "47%", margin: "35px auto 0 27%", fontFamily: "'oxygen', sans-serif"}}>Welcome to my webpage! <br></br><br></br> I am an enthusiastic software developer, former electrical engineer and Future Technologies enthusiast. I believe in using technology to create a brighter, more sustainable future for the planet. <br></br><br></br> -Allison </div> 
+                <div style={{fontSize: "18px", width: "47%", margin: "35px auto 0 27%", fontFamily: "'oxygen', sans-serif", textAlign:"justify"}}>Welcome to my webpage! <br></br><br></br> I am French-Indonesian, enthusiastic software developer, former electrical engineer and Future Technologies enthusiast. I believe that technology can create a better, more sustainable future for the planet. <br/> <br/> In my personal time I enjoy exercising, cooking, videogames, 3D printing and all things pop culture (ask me about my pokemon card collection). <br></br><br></br> -Allison </div> 
             </div>
         )
     }

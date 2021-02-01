@@ -2,25 +2,21 @@ import { Component } from 'react'
 
 import { Tabs, Tab } from 'react-bootstrap'
 
+import './skills.css';
 
 export default class Skills extends Component {
 
     render() {
 
         return (
-            <div id="skills">
+            <div id="skills" style={{marginBottom:"100px"}}>
                 <h1 className="header">SKILLS</h1>
-                <Tabs style={{width: "46%", marginLeft: "27%"}} defaultActiveKey="Front-End">
-                    <Tab style={{width: "46%", height:"400px", marginLeft: "27%", backgroundColor:"blue"}} eventKey="Front-End" title="Front-End">
-                        <div style={{color:"white"}}>REACT <br></br><br></br><br></br><br></br> bootstrap</div>
-                    </Tab>
-                    <Tab style={{width: "46%", height:"400px", marginLeft: "27%", backgroundColor:"red"}} eventKey="Back-End" title="Back-End">
-                        <div style={{color:"white"}}>RUBYYY</div>
-                    </Tab>
-                    <Tab style={{width: "46%", height:"400px", marginLeft: "27%", backgroundColor:"green"}} eventKey="Development Tools" title="Development Tools">
-                        <div style={{color:"white"}}>JIRA AND WHATNOT</div>
-                    </Tab>
-                </Tabs>
+                <div className="skillsContainer">
+                    <div className="skills" style={{backgroundColor:"#C5EBFE"}}><h4>Front-End</h4>Javascript <br/> HTML <br/> CSS <br/> React <br/> Bootstrap</div>
+                    <div className="skills" style={{backgroundColor:"white"}}><h4>Back-End</h4>Ruby <br/> Express <br/> PostgreSQL </div>
+                    <div className="skills" style={{backgroundColor:"#F197C0"}}><h4>Development Tools</h4>Git/Github <br/> Trello <br/> Heroku <br/> Netlify <br/> Linux/Ubuntu <br/> JIRA <br/> </div>
+
+                </div>
             </div>
         )
     }
