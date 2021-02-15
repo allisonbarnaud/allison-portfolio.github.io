@@ -1,7 +1,5 @@
 import { Component } from 'react'
 
-import { Tabs, Tab } from 'react-bootstrap'
-
 import './skills.css';
 
 export default class Skills extends Component {
